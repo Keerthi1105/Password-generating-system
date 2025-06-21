@@ -31,10 +31,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color:white;
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color:#333;
   color: var(--color);
   font-family: "Muli", sans-serif;
 }
@@ -56,14 +57,14 @@ input[type="checkbox"] {
   padding: 20px;
   width: 350px;
   max-width: 100%;
-  background: var(--bg-color);
+  background:#4b5056;
   border: 12px solid var(--bg-color);
   filter: var(--filter1);
   margin: auto;
 }
 
 .result-container {
-  background-color: var(--bg-color);
+  background-color:#111;
   border: 12px solid var(--bg-color);
   filter: var(--filter2);
   display: flex;
@@ -78,7 +79,7 @@ input[type="checkbox"] {
 }
 
 textarea {
-  background: none;
+  background:none;
   border: none;
   color: var(--color);
   font-size: 20px;
